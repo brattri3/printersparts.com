@@ -1,0 +1,80 @@
+@font-face {
+font-family:samsyng;
+src:url(font/Helvetica-Black.otf);
+}
+
+html {
+padding-top: 25px;
+background-color: #f5f4ec;
+}
+
+body {
+display: block;
+margin: 0px;
+font-size: 12px;
+/*font-family: Arial;*/
+color: black;
+background-color: #f5f4ec;
+}
+
+a {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+.navbar li:hover {
+background-color: #e7e7e7
+}
+
+.container {
+border-radius: 10px;
+box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+background-color: #E1EDEB;
+}
+
+.logo {			
+background-color: none;
+/* height: 100%; */
+/*font-size: 36px;*/
+font-family: 'Special Elite', cursive;
+color: #222;
+text-align: center;
+padding:9px;
+
+}
+
+.logo:hover {
+color: #black;
+}
+
+#samsung a 	{
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+color: #1428a0;
+font-weight: 500;
+/*font-size: 20px;*/
+}
+
+#hp a 	{
+font-family: 'Open Sans', sans-serif;
+/*text-transform: uppercase;*/
+color: #0096D6;
+font-weight: 700;
+/*font-size: 20px;*/
+}
+
+#ricoh a {
+font-family: 'Droid Sans', sans-serif;
+text-transform: uppercase;
+color: rgba(192,26,50,1);
+font-weight: 700;
+/*font-size: 16px;*/
+}
+
+#sharp a {
+font-family: 'Droid Sans', sans-serif;
+text-transform: uppercase;
+color: rgba(195,0,11,1);
+font-weight: 700;
+/*font-size: 16px;*/
+}
