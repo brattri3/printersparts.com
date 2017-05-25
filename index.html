@@ -1,47 +1,94 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>Распродажа запчастей на принтеры и МФУ</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans|Roboto|Special+Elite" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Распродажа запчастей для принтеров</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link  href="css/style.css" rel="stylesheet">
+  <link  href="css/icon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans|Roboto|Special+Elite" rel="stylesheet"> 
 </head>
 <body>
-<div class="container">
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<a class="navbar-brand  logo" href="index.html">Printers<br>Parts</a>
-			</div>
+  <div class="container">
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Информация<span class="sr-only">(current)</span></a></li>
-					<li id="ricoh"><a href="ricoh.html">Ricoh</a></li>
-					<li id="samsung"><a href="#">Samsung</a></li>
-					<li id="sharp"><a href="#">Sharp</a></li>
-					<li id="hp"><a href="#">HP LaserJet</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="tel:89118432525">8(911)-843-25-25</a></li>
-					<li><a href="tel:89118432525">8(911)-843-25-25</a></li>
-				</ul>
-			</div>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
 
-		</div>
-	</nav>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#">Printers<br>Parts</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Информация<span class="sr-only">(current)</span></a></li>
+            <li id="font-droid"><a href="#">Ricoh</a></li>
+            <li id="font-sans"><a href="#">SAMSUNG</a></li>
+            <li id="font-droid"><a href="#">Sharp</a></li>
+            <li id="font-sans"><a href="#">HP LaserJet</a></li>
+          </ul>
 
-	<div class="panel panel-default">
-		<div class="panel-body">
-			На данном сайте распродаются запчасти для принтеров, копиров и МФУ. Вы можете произвести закупки как частное лицо, кроме того мы можем оформить продажу как юридическое лицо. Наш склад расположен в Санкт-Петербурге в районе м. Ломоносовская, доставка по городу бесплатная при покупке от 1500 р. Возможна доставка в другие города удобным для вас способом. <br> 
-			Вы можете связаться с нами по телефонам <a class="ph-text" href="tel:89118432525">8(911)843-25-25</a> и <a class="ph-text" href="tel:89111872580">8(911)187-25-80</a> (можете писать и звонить нам в  <span style="color: red">(Icon WhatsApp) </span>WhatsApp и <span style="color: green">(Icon Viber) </span>Viber). Желательно звонить в рабочее время с 9:00 до 20:00.
-		</div>	
-	</div>
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Контакты <span class="sr-only">(current)</span></a></li>             
+          </ul>
 
-	<div class="panel-footer">Panel footer</div>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
 
-</div>
+    <!-- Main component -->
+    <div class="row">
+     <div class="col-md-4">
+       <div class="jumbotron">
+        <h2>Контакты</h2>
+        <p>
+          Телефоны: <br>
+          <a href="tel:89118432525"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;8(911)-843-25-25</a><br>
+          <a href="tel:89118432525"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;8(911)-187-25-80</a><br>
+
+          Мессенджеры: <br>
+          <a href="intent://send/+79118432525#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
+            <span class="icon-WhatsApp">
+              <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+            </span>
+            <span class="massangers">-WhatsApp</span>
+          </a><br>
+          <a href="viber://add?number=+79118432525">
+            <span class="icon-viber">
+              <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span>
+            </span>
+            <span class="massangers">-Viber</span>
+          </a><br>
+          Почта:  <br>
+          <a href="mailto:printersparts@mail.ru"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;printersparts@mail.ru</a><br>
+          Адрес: <br>
+          Рабочее время: <br>
+        </p>
+      </div><!-- /.jumbotron -->
+    </div><!-- /.col-md-4 -->
+
+    <div class="col-md-8">
+     <div class="jumbotron">
+      <h1>Информация</h1>
+      <p>На данном сайте распродаются запчасти для принтеров, копиров и МФУ. Вы можете произвести закупки как частное лицо, кроме того мы можем оформить продажу как юридическое лицо. Наш склад расположен в Санкт-Петербурге в районе м. Ломоносовская, доставка по городу бесплатная при покупке от 1500 р. Возможна доставка в другие города удобным для вас способом. 
+      </p>
+    </div> <!-- /.jumbotron -->
+  </div><!-- /.col-md-8 -->
+
+</div><!--/.row -->
+</div> <!-- /.container -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
