@@ -33,32 +33,44 @@ color: rgba(192,26,50,1);
 font-weight: 700;
 }
 
-.a-icon {
-	color: rgba(151,25,47,1);
-	display: inline-block;
-	float:left;
-	}
 
-.contacts-icon:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+
+/*Блок контактной информации*/
+.telephone {
+	background: #ccc
 }
 
-.jumbotron a {
-	font-weight: 400;
+.number a {
+	color: black;
+	margin: 0px 10px;
+	background-color: #999;
+	padding: 0;
 }
 
-.jumbotron p {
-	margin-bottom: 0px;
+.btn {
+
 }
-/*.panel-body {
-	font-size: 16px;
-}*/
 
-/*.ph-text {
-	color: rgba(151,25,47,1);
-}*/
+.icons {
+	float: left;
+	margin: 0px 5px;
+	height: 40px;
+	width: 40px;
+}
 
+.telephone *:hover {
+	text-decoration: none;
+}
+
+.earphone {
+	font-size: 30px;
+
+}
+
+.iner {
+	background: #999;
+	height: 38px;
+	width: 38px;
+}
+
+/*конец болка контактной информации*/
