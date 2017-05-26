@@ -9,25 +9,36 @@
 </head>
 <body>
 	<div class="container">
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand  logo" href="index.html">Printers<br>Parts</a>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li ><a href="index.html">Информация<span class="sr-only">(current)</span></a></li>
-						<li class="active" id="ricoh"><a href="ricoh.html">Ricoh</a></li>
-						<li id="samsung"><a href="#">Samsung</a></li>
-						<li id="sharp"><a href="#">Sharp</a></li>
-						<li id="hp"><a href="#">HP LaserJet</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Контакты</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		<!-- Навигационная панель -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#">Printers<br>Parts</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Информация<span class="sr-only">(current)</span></a></li>
+            <li id="font-droid"><a href="#">Ricoh</a></li>
+            <li id="font-sans"><a href="#">SAMSUNG</a></li>
+            <li id="font-droid"><a href="#">Sharp</a></li>
+            <li id="font-sans"><a href="#">HP LaserJet</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Контакты <span class="sr-only">(current)</span></a></li>             
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+    <!-- Конец навигационной панели -->
  
 	<div class="panel panel-default">
 		<div class="panel-body">

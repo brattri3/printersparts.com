@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif;
 font-weight: 700;
 }
 
+/*Настройка навигационной панели*/
 .navbar li:hover {
 background-color: #e7e7e7
 }
@@ -33,7 +34,10 @@ color: rgba(192,26,50,1);
 font-weight: 700;
 }
 
-
+.main-number {
+  margin-top: 5px;
+}
+/* конец болка астройка навигационной панели*/
 
 /*Блок контактной информации*/
 .panel-title {
@@ -48,4 +52,39 @@ font-weight: 700;
 .panel-body p {
 	margin-bottom: 0;
 }
-/*конец болка контактной информации*/
+/*Конец болка контактной информации*/
+
+/*Блок контента*/
+.panel-info .panel-body {
+	text-align: justify;
+	font-size: 15px;
+}
+/*Конец блока контента*/
+
+/*Блок ссылок*/
+.col-md-2 {
+   padding-left: 6px;
+   padding-right: 6px;
+}
+
+.panel-body {
+	text-align: center;
+}
+
+button[onClick*="ricoh"], button[onClick*="sharp"] {
+	font-family: 'Droid Sans', sans-serif;
+	text-transform: uppercase;
+	color: rgba(192,26,50,1);
+	font-weight: 700;
+	font-size: 16px;
+	width: 134px;
+}
+
+button[onClick*="samsung"], button[onClick*="hp"] {
+	font-family: 'Open Sans', sans-serif;
+	color: #1428a0;
+	font-weight: 700;
+	font-size: 16px;
+	width: 134px;
+}
+/*Конец блока ссылок*/
