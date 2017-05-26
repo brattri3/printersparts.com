@@ -36,41 +36,16 @@ font-weight: 700;
 
 
 /*Блок контактной информации*/
-.telephone {
-	background: #ccc
+.panel-title {
+	font-size: 18px;
 }
 
-.number a {
-	color: black;
-	margin: 0px 10px;
-	background-color: #999;
-	padding: 0;
+.btn-sm {
+	font-size: 16px;
+	height: 37px;
 }
 
-.btn {
-
+.panel-body p {
+	margin-bottom: 0;
 }
-
-.icons {
-	float: left;
-	margin: 0px 5px;
-	height: 40px;
-	width: 40px;
-}
-
-.telephone *:hover {
-	text-decoration: none;
-}
-
-.earphone {
-	font-size: 30px;
-
-}
-
-.iner {
-	background: #999;
-	height: 38px;
-	width: 38px;
-}
-
 /*конец болка контактной информации*/
