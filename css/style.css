@@ -59,13 +59,31 @@ li button.btn-info {
 	margin-bottom: 0;
 }
 
+.email {
+	font-size: 16px;
+}
+
+.col-md-4 button[onClick*="tel"] {
+	width: 165px;
+	text-align: right;
+}
+
+.navbar button[onClick*="tel"] {
+	width: 127.713px;
+	text-align: right;
+}
+
+button[onClick*="://"] {
+	width: 44px;
+}
 
 /*Конец болка контактной информации*/
 
 /*Блок контента*/
-.panel-info .panel-body {
+.panel-info p {
 	text-align: justify;
 	font-size: 15px;
+	text-indent: 1.5em;
 }
 /*Конец блока контента*/
 
