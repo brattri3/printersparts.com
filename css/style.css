@@ -7,7 +7,7 @@ a {
 .container {
 	width: 100%;
 	max-width: 1170px;
-	min-width: 358px;
+	min-width: 430px;
 }
 
 /*Навигационная панель*/
@@ -44,10 +44,34 @@ li button.btn-info {
 	margin-top: 5px;
 	font-size: 12px;
 }
+
+.top-to-bottom {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#e7e7e7)) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(#999, #e7e7e7) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(#999, #e7e7e7) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(#999, #e7e7e7)  1 100%;
+    border-image:
+      linear-gradient(to bottom, #999, #e7e7e7) 1 100%;
+}
+
 #mail {
 	margin-bottom: 5px;
 }
 /* конец болка навигационной панели*/
+
+
+.panel-primary {
+    max-width: 405px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 
 /*Блок контактной информации*/
 .btn-success {
@@ -202,10 +226,7 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 	border-bottom: 1px solid #ddd;
 }
 
-td:nth-child(4n), th:nth-child(4n) {
-	text-align: center;
-}
-td:nth-child(5n), th:nth-child(5n) {
+td:nth-child(4n), td:nth-child(5n), th, td:first-child {
 	text-align: center;
 }
 /*Конец блока таблицы*/
