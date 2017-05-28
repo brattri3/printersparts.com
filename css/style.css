@@ -21,6 +21,7 @@ a {
 	color: #222;
 	text-align: center;
 	padding:9px;
+	font-size: 16px;
 }
 
 .logo:hover {
@@ -45,19 +46,26 @@ li button.btn-info {
 	font-size: 12px;
 }
 
+@media (min-width: 768px) {
+	.navbar-brand{
+		font-size: 16px;
+	}
+}
+
 .top-to-bottom {
-    border-width: 1px;
-    border-style: solid;
-    -webkit-border-image: 
-      -webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#e7e7e7)) 1 100%;
-    -webkit-border-image: 
-      -webkit-linear-gradient(#999, #e7e7e7) 1 100%;
-    -moz-border-image:
-      -moz-linear-gradient(#999, #e7e7e7) 1 100%;    
-    -o-border-image:
-      -o-linear-gradient(#999, #e7e7e7)  1 100%;
-    border-image:
-      linear-gradient(to bottom, #999, #e7e7e7) 1 100%;
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-image: 
+	-webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#e7e7e7)) 1 100%;
+	-webkit-border-image: 
+	-webkit-linear-gradient(#999, #e7e7e7) 1 100%;
+	-moz-border-image:
+	-moz-linear-gradient(#999, #e7e7e7) 1 100%;    
+	-o-border-image:
+	-o-linear-gradient(#999, #e7e7e7)  1 100%;
+	border-image:
+	linear-gradient(to bottom, #999, #e7e7e7) 1 100%;
 }
 
 #mail {
@@ -67,9 +75,9 @@ li button.btn-info {
 
 
 .panel-primary {
-    max-width: 405px;
-    margin: auto;
-    margin-bottom: 20px;
+	max-width: 405px;
+	margin: auto;
+	margin-bottom: 20px;
 }
 
 
@@ -228,5 +236,8 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 
 td:nth-child(4n), td:nth-child(5n), th, td:first-child {
 	text-align: center;
+}
+td {
+	vertical-align:middle;
 }
 /*Конец блока таблицы*/
