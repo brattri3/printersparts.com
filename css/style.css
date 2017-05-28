@@ -138,12 +138,12 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 
 /*Подвал*/
 #scrolltop-container {
-    position:relative;
-    width:100%;
-    padding:0;
-    margin:0;
-    border:0;
-    height:27px;
+	position:relative;
+	width:100%;
+	padding:0;
+	margin:0;
+	border:0;
+	height:27px;
 }
 
 #scrolltop-container.narrow { background:#fff !important; }
@@ -182,6 +182,6 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 }
 
 .panel > .panel-body + .table {
- border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
 /*Конец блока таблицы*/
