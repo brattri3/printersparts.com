@@ -4,6 +4,12 @@ a {
 	font-weight: 700;
 }
 
+.container {
+	width: 100%;
+	max-width: 1170px;
+	min-width: 358px;
+}
+
 /*Навигационная панель*/
 .navbar li:hover {
 	background-color: #e7e7e7
@@ -80,13 +86,26 @@ button[onClick*="://"] {
 	width: 44px;
 }
 
+.small-btn-group {
+	display: inline-block;
+}
 /*Конец болка контактной информации*/
 
-/*Блок контента*/
+/*Блок контентов*/
 .panel-info p {
 	text-align: justify;
 	font-size: 15px;
 	text-indent: 1.5em;
+}
+
+.panel-body {
+	text-align: center;
+
+}
+
+.above-table {
+	font-size: 16px;
+	text-align: left;
 }
 /*Конец блока контента*/
 
@@ -96,11 +115,7 @@ button[onClick*="://"] {
 	padding-right: 6px;
 }
 
-.panel-body {
-	text-align: center;
-}
-
-.panel-body h2{
+.panel-body h2 {
 	margin-top: 10px;
 }
 
@@ -128,12 +143,14 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 }
 
 .btn-default {
-	margin-top: 3px;
+	margin-bottom: 3px;
 	font-weight: 700;
 	font-size: 16px;
 	width: 100%;
+	max-width: 360px;
 	background: #ddd linear-gradient(#eee, #ccc);
 }
+
 /*Конец блока ссылок*/
 
 /*Подвал*/
@@ -183,5 +200,12 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 
 .panel > .panel-body + .table {
 	border-bottom: 1px solid #ddd;
+}
+
+td:nth-child(4n), th:nth-child(4n) {
+	text-align: center;
+}
+td:nth-child(5n), th:nth-child(5n) {
+	text-align: center;
 }
 /*Конец блока таблицы*/
