@@ -15,9 +15,14 @@ a {
 	background-color: #e7e7e7
 }
 
+ul.navbar-nav li a {
+		text-transform: uppercase;
+		
+}
+
 .logo {			
 	background-color: none;
-	font-family: 'Special Elite', cursive;
+	font-family: 'Lobster', cursive;
 	color: #222;
 	text-align: center;
 	padding:9px;
@@ -30,7 +35,8 @@ a {
 
 #font-sans a {
 	font-family: 'Open Sans', sans-serif;
-	color: #1428a0;
+	color: rgba(192,26,50,1);
+	text-transform: uppercase;
 	font-weight: 700;
 }
 
@@ -158,9 +164,9 @@ button[onClick*="ricoh"], button[onClick*="sharp"] {
 	color: rgba(192,26,50,1);
 }
 
-button[onClick*="samsung"]:hover, button[onClick*="hp"]:hover {
+button[onClick*="toshiba"]:hover, button[onClick*="hp"]:hover {
 	font-family: 'Open Sans', sans-serif;
-	color: #1428a0;
+	color: rgba(192,26,50,1);
 }
 
 button[onClick*="ricoh"]:hover, button[onClick*="sharp"]:hover {
@@ -169,9 +175,13 @@ button[onClick*="ricoh"]:hover, button[onClick*="sharp"]:hover {
 	color: rgba(192,26,50,1);
 }
 
-button[onClick*="samsung"], button[onClick*="hp"] {
+button[onClick*="toshiba"], button[onClick*="hp"] {
 	font-family: 'Open Sans', sans-serif;
-	color: #1428a0;
+	color: rgba(192,26,50,1);
+}
+
+button[onClick*="toshiba"] {
+	text-transform: uppercase;
 }
 
 .btn-default {
@@ -234,10 +244,31 @@ button[onClick*="samsung"], button[onClick*="hp"] {
 	border-bottom: 1px solid #ddd;
 }
 
-td:nth-child(4n), td:nth-child(5n), th, td:first-child {
+/*td:nth-child(4n), td:nth-child(5n), th, td:first-child {
+	text-align: center;
+}*/
+
+.column1, .column8, .column9 {
 	text-align: center;
 }
-td {
-	vertical-align:middle;
+
+td, th {
+	vertical-align:middle !important;
+}
+
+th {
+	text-align: center;
+}
+
+.column2, .column3, .column5, .column7 {
+	display: none;
+}
+
+td.column6 {
+	text-decoration: underline;
+}
+
+.column6 {
+	min-width: 90px;
 }
 /*Конец блока таблицы*/
