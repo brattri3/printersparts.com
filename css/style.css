@@ -1,103 +1,99 @@
-
-a {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-}
-
+/*Глобальные настройки*/
 .container {
 	width: 100%;
 	max-width: 1170px;
 	min-width: 430px;
 }
 
+.row * {
+	font-size: 16px !important;
+}
+
+nav {
+	font-size: 12px !important;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.jumbotron {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.jumbotron p {
+	font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+	.container .jumbotron,
+	.container-fluid .jumbotron {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.jumbotron h1,
+	.jumbotron .h1 {
+		font-size: 21px;
+	}
+}
+/* Конец глобальных настроек*/
+
 /*Навигационная панель*/
-.navbar li:hover {
-	background-color: #e7e7e7
+.font-droid,
+.font-sans {
+	font-family: 'Droid Sans', sans-serif;
+	text-transform: uppercase;
+	color: #c01a32 !important;
+	font-weight: 700;
 }
 
-ul.navbar-nav li a {
-		text-transform: uppercase;
-		
+.font-sans {
+	font-family: 'Open Sans', sans-serif;
 }
 
-.logo {			
-	background-color: none;
+.navbar-default .navbar-brand {
+	text-transform: capitalize;
 	font-family: 'Lobster', cursive;
-	color: #222;
+	color: #664b00;
 	text-align: center;
 	padding:9px;
 	font-size: 16px;
 }
 
-.logo:hover {
-	color: #black;
-}
-
-#font-sans a {
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(192,26,50,1);
-	text-transform: uppercase;
-	font-weight: 700;
-}
-
-#font-droid a {
-	font-family: 'Droid Sans', sans-serif;
-	text-transform: uppercase;
-	color: rgba(192,26,50,1);
-	font-weight: 700;
-}
-
-li button.btn-info {
-	margin-top: 5px;
-	font-size: 12px;
-}
-
-@media (min-width: 768px) {
-	.navbar-brand{
-		font-size: 16px;
-	}
+.navbar li:hover {
+	background-color: #e7e7e7
 }
 
 .top-to-bottom {
-	font-size: 12px;
-	border-width: 1px;
+	border-width: 0 1px 0 0;
 	border-style: solid;
-	-webkit-border-image: 
+	-webkit-border-image:
 	-webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#e7e7e7)) 1 100%;
-	-webkit-border-image: 
+	-webkit-border-image:
 	-webkit-linear-gradient(#999, #e7e7e7) 1 100%;
 	-moz-border-image:
-	-moz-linear-gradient(#999, #e7e7e7) 1 100%;    
+	-moz-linear-gradient(#999, #e7e7e7) 1 100%;
 	-o-border-image:
-	-o-linear-gradient(#999, #e7e7e7)  1 100%;
+	-o-linear-gradient(#999, #e7e7e7) 1 100%;
 	border-image:
 	linear-gradient(to bottom, #999, #e7e7e7) 1 100%;
 }
-
-#mail {
-	margin-bottom: 5px;
-}
 /* конец болка навигационной панели*/
 
-
+/*Блок "Как связаться:"*/
 .panel-primary {
 	max-width: 405px;
 	margin: auto;
 	margin-bottom: 20px;
 }
 
-
-/*Блок контактной информации*/
-.btn-success {
-
-}
-
-.panel-title {
-	font-size: 16px;
-}
-
 .btn-sm {
-	font-size: 16px;
 	height: 37px;
 	margin-top: 3px;
 }
@@ -106,21 +102,18 @@ li button.btn-info {
 	margin-bottom: 0;
 }
 
-.email {
-	font-size: 16px;
-}
-
-.col-md-4 button[onClick*="tel"] {
+.phone-content {
 	width: 165px;
 	text-align: right;
 }
 
-.navbar button[onClick*="tel"] {
+.phone-nav {
 	width: 127.713px;
 	text-align: right;
+	margin-top: 5px;
 }
 
-button[onClick*="://"] {
+.icon-content {
 	width: 44px;
 }
 
@@ -129,10 +122,9 @@ button[onClick*="://"] {
 }
 /*Конец болка контактной информации*/
 
-/*Блок контентов*/
+/*Блок "Информация"*/
 .panel-info p {
 	text-align: justify;
-	font-size: 15px;
 	text-indent: 1.5em;
 }
 
@@ -142,12 +134,11 @@ button[onClick*="://"] {
 }
 
 .above-table {
-	font-size: 16px;
 	text-align: left;
 }
-/*Конец блока контента*/
+/*Конец блока "Информация"*/
 
-/*Блок ссылок*/
+/*Блок "Товары"*/
 .col-md-2 {
 	padding-left: 6px;
 	padding-right: 6px;
@@ -157,43 +148,15 @@ button[onClick*="://"] {
 	margin-top: 10px;
 }
 
-
-button[onClick*="ricoh"], button[onClick*="sharp"] {
-	font-family: 'Droid Sans', sans-serif;
-	text-transform: uppercase;
-	color: rgba(192,26,50,1);
-}
-
-button[onClick*="toshiba"]:hover, button[onClick*="hp"]:hover {
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(192,26,50,1);
-}
-
-button[onClick*="ricoh"]:hover, button[onClick*="sharp"]:hover {
-	font-family: 'Droid Sans', sans-serif;
-	text-transform: uppercase;
-	color: rgba(192,26,50,1);
-}
-
-button[onClick*="toshiba"], button[onClick*="hp"] {
-	font-family: 'Open Sans', sans-serif;
-	color: rgba(192,26,50,1);
-}
-
-button[onClick*="toshiba"] {
-	text-transform: uppercase;
-}
-
 .btn-default {
 	margin-bottom: 3px;
 	font-weight: 700;
-	font-size: 16px;
 	width: 100%;
-	max-width: 360px;
+	max-width: 200px;
 	background: #ddd linear-gradient(#eee, #ccc);
 }
 
-/*Конец блока ссылок*/
+/*Конец блока "Товары"*/
 
 /*Подвал*/
 #scrolltop-container {
@@ -205,7 +168,9 @@ button[onClick*="toshiba"] {
 	height:27px;
 }
 
-#scrolltop-container.narrow { background:#fff !important; }
+#scrolltop-container.narrow { 
+	background:#fff !important; 
+}
 
 #scrolltop {
 	display:block;
@@ -229,12 +194,13 @@ button[onClick*="toshiba"] {
 	border-top-left-radius:4px;
 	border-top-right-radius:4px;
 }
-/* Конец Подвал*/
+/* Конец подвала*/
 
 /*Блок таблицы*/
 .pagination {
 	margin: 5px 5px;
 }
+
 .panel > .table caption {
 	height: 40px;
 	padding: 0 0;
@@ -244,15 +210,14 @@ button[onClick*="toshiba"] {
 	border-bottom: 1px solid #ddd;
 }
 
-/*td:nth-child(4n), td:nth-child(5n), th, td:first-child {
-	text-align: center;
-}*/
-
-.column1, .column8, .column9 {
+.column1,
+.column8,
+.column9 {
 	text-align: center;
 }
 
-td, th {
+td,
+th {
 	vertical-align:middle !important;
 }
 
@@ -260,7 +225,10 @@ th {
 	text-align: center;
 }
 
-.column2, .column3, .column5, .column7 {
+.column2,
+.column3,
+.column5,
+.column7 {
 	display: none;
 }
 
@@ -270,5 +238,9 @@ td.column6 {
 
 .column6 {
 	min-width: 90px;
+}
+
+.column8 a {
+	text-transform: capitalize;
 }
 /*Конец блока таблицы*/
